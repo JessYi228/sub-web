@@ -255,8 +255,18 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "https://bkn.cry228.nl/sub?" }],
         remoteConfig: [
+          {
+            label: "CRY",
+            options:[
+              {
+                label: "Clash",
+                value:
+                  "https://raw.githubusercontent.com/JessYi228/Something/master/clash_update.ini"
+              }
+            ] 
+          },
           {
             label: "universal",
             options: [
@@ -337,11 +347,11 @@ export default {
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
-        emoji: true,
+        emoji: false,
         nodeList: false,
         extraset: false,
         sort: false,
-        udp: false,
+        udp: true,
         tfo: false,
         scv: false,
         fdn: false,
