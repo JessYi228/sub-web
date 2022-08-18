@@ -255,7 +255,7 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "https://bkn.cry228.nl/sub?" }],
+        backendOptions: [{ value: "https://bkn.cry228.me/sub?" }],
         remoteConfig: [
           {
             label: "CRY",
